@@ -1,0 +1,28 @@
+{
+    "name": "zackaj/laravel-debounce",
+    "description": "Debounce jobs ,notifications and artisan commands.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zackaj\\LaravelDebounce\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zackaj",
+            "email": "codeartbtw@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zackaj\\LaravelDebounce\\DebounceServiceProvider"
+            ],
+            "aliases": {
+                "Debounce": "Zackaj\\LaravelDebounce\\Facades\\Debounce"
+            }
+        }
+    }
+}
